@@ -1,8 +1,8 @@
 # include <stdio.h>
 int main() {
-    float num;
-    printf("enter num:");
-    scanf("%f", &num);
-    printf("the number is %f", num);
+    float n;
+    printf("enter n:");
+    scanf("%f", &n);
+    printf("the number is %f", n);
     return 0;
 }
