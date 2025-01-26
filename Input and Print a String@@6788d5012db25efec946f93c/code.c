@@ -2,6 +2,6 @@
 int main() {
     char word[];
     scanf("%s", &word);
-    printf("You entered: %.2s", word);
+    printf("You entered: %s %s", word);
     return 0;
 }
