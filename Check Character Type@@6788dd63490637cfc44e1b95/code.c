@@ -11,10 +11,10 @@ int main(){
         }
     }
         else if(ch>='0'&& ch<='9'){
-            printf("Digits");
+            printf("Digit\n");
         }
         else{
-            printf("Special Character");
+            printf("Special Character\n");
         }
     }
     return 0;
