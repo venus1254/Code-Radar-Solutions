@@ -16,7 +16,7 @@ int main(){
         printf(a*b);
         break;
         case '/':
-         if (b % 2 == 0){
+         if (b == 0){
             printf("Error: Division by zero");
          }
          else {
