@@ -4,20 +4,25 @@ int main(){
     char oper;
     scanf("%d %d %c", &a, &b, &oper);
     switch(oper){
-        case 1: '+':
+        case '+':
         printf(a+b);
         break;
-        case 2: '-':
+        case '-':
         printf(a-b);
         break;
-        case 3: '*':
+        case '*':
         printf(a*b);
         break;
-        case 4: '/':
-        printf(a/b);
+        case '/':
+         if (b % 2 == 0){
+            printf("Error: Division by zero");
+         }
+         else {
+            printf("%d / %d = %d", a, b, a/b);
+         }
         break;
         default:
-        printf("error");
+        printf("error: invalid operator");
     }
     return 0;
 }
