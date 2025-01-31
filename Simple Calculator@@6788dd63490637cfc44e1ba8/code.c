@@ -5,16 +5,16 @@ int main(){
     scanf("%d %d", &a, &b);
     scanf("%c", &oper);
     switch(oper){
-        case 1: '+'
+        case 1: '+':
         printf(a+b);
         break;
-        case 2: '-'
+        case 2: '-':
         printf(a-b);
         break;
-        case 3: '*'
+        case 3: '*':
         printf(a*b);
         break;
-        case 4: '/'
+        case 4: '/':
         printf(a/b);
         break;
         default:
