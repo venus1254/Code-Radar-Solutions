@@ -7,20 +7,20 @@ int main(){
     scanf("%c",&oper);
     switch(oper){
         case '+':
-        printf(a+b);
+        printf("a+b");
         break;
         case '-':
-        printf(a-b);
+        printf("a-b");
         break;
         case '*':
-        printf(a*b);
+        printf("a*b");
         break;
         case '/':
          if (b == 0){
             printf("Error: Division by zero");
          }
          else {
-            printf("%d / %d = %d", a, b, a/b);
+            printf("%d",a/b);
          }
         break;
         default:
