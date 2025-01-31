@@ -10,10 +10,10 @@ int main(){
             printf("Consonant");
         }
     }
-        else if(ch>='0'&& ch<='9'){
+        else if(ch>='0' && ch<='9'){
             printf("Digit\n");
         }
-        else{
+        else {
             printf("Special Character\n");
         }
     }
