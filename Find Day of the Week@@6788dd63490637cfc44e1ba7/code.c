@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    char n;
+    int n;
     sacnf("%c", &n);
     if(n == 1){
         printf("Monday");
