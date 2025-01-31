@@ -1,12 +1,18 @@
 #include<stdio.h>
 int main(){
-    int day;
-    scanf("%d", &day);
-    if(day>=365){
-        printf("Leap Year");
+    int year;
+    scanf("%d", &year);
+    if(year % 4 == 0){
+        if(year%100==0){
+            if(year%400==0){
+                printf("%d is a Leap Year");
+            }
+            else {
+                printf("%d is Not a Leap Year");
+            }
+            else {
+                printf("%d is a Leap Year");
+            }
+        }
     }
-    else{
-        printf("Not a Leap Year");
-    }
-    return 0;
 }
