@@ -20,7 +20,7 @@ int main(){
             printf("Error: Division by zero");
          }
          else {
-            printf("%d",a/b);
+            printf("%d", a/b);
          }
         break;
         default:
