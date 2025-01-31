@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int n;
-    sacnf("%c", &n);
+    sacnf("%d", &n);
     if(n == 1){
         printf("Monday");
     }
