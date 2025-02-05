@@ -6,7 +6,16 @@ int main(){
         for(int space=1; space=N-i; space++){
              printf(" ");
         }
-        for(int j=i; j<=N; j++){
+        for(int j=1; j<=2*i-1; j++){
+            printf("*");
+        }
+        printf("\n");
+    }
+    for(int i=N-1; i>=1; i--){
+        for (int spaces=1; spaces<= N-i; spaces++){
+            printf(" ");
+        }
+        for(int j=1; j<=2*i-1; j++){
             printf("*");
         }
         printf("\n");
