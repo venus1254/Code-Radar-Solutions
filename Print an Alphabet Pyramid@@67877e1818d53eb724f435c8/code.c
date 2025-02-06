@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int N;
-    char ch;
+    char ch='A';
     scanf("%d", &N);
     scamf("%c", &ch);
     for(int i=1; i<=N; i++){
